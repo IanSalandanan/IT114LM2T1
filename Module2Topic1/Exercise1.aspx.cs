@@ -13,5 +13,10 @@ namespace Module1Exercise1
         {
 
         }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            SongStatus.InnerHtml = "Now Playing: My Eyes - Travis Scott";
+        }
     }
 }
